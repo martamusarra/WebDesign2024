@@ -1,0 +1,11 @@
+h1 { 
+    color: red;
+}
+h2 { 
+    color: black;
+    background-color: rgb(57, 255, 20) ;
+    width:fit-content;
+}
+.spuntati{ 
+    color:rgb(166, 24, 190) ;
+}
