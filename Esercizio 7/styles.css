@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .div1 {
+    width: 200px;
+    height: 100px;
+    background-color: magenta;
+    transition: transform 0.5s ease;
+  }
+  .div1:hover {
+    transform: translateX(50px);
+  }
+  .div2 {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    animation: animazione 4s linear infinite;
+  }
+  @keyframes animazione {
+    0% {
+      background-color: blue;
+    }
+    50% {
+      background-color: red;
+    }
+    100% {
+      background-color: blue;
+    }
+  }
+  
