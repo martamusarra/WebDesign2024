@@ -1,0 +1,32 @@
+.absolute {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    right: 0;
+    background-color: aquamarine;
+    
+}
+
+.fixed {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 0px;
+    right: 20px;
+    background-color: green;
+
+}
+
+.sticky {
+    position: sticky;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    background-color: blanchedalmond;
+}
+
+.sticky-container {
+    width: 200px;
+}

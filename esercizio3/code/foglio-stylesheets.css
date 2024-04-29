@@ -1,0 +1,22 @@
+.sfondo{
+   background-color: rgb(41, 41, 101);
+ }
+ 
+ img {
+    height: 35px;
+  }
+
+  h1 {
+    font-size: 32px ;
+
+  }
+  body{
+    color: white;
+
+  }
+
+  p{
+    font-size: 14px ;
+    text-align: justify;
+    line-height: 1.5;
+  }
